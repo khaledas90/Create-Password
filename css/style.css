@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #eee, #eee);
+}
+
+.Calculator {
+  width: 55%;
+  height: 55%;
+  background: #399df5;
+  position: relative;
+  padding: 20px 25px 35px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Calculator {
+    width: auto;
+    height: 55%;
+  }
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: #fff;
+}
+h1 span {
+  color: #000000;
+  margin-right: 4px;
+}
+
+.pass {
+  width: 65%;
+  padding: 13px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
+}
+.pass:focus {
+  outline: none;
+  border: none;
+}
+.Generate {
+  width: 30%;
+  padding: 13px;
+  background: #fff;
+  color: #399df5;
+  border: none;
+  outline: none;
+  transition: all 0.5s;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #399df5;
+  margin-top: 25px;
+}
+
+.Generate:hover {
+  background: #399df5;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.age {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.age span {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.age-item {
+  display: grid;
+  gap: 4px;
+}
+.ageItem {
+  display: grid;
+}
